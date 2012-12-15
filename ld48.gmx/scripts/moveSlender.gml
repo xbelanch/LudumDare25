@@ -5,11 +5,68 @@ var xx,yy,c1,c2;
 
 
 // Apply gravity (and jumping)
-/*
+
 y = y + grav;
 grav+=0.4;
 if( grav>=10 ) grav=10;
-*/
+
+
+
+
+if( grav<0 ) // the player is jumping of falling
+{
+    if( dir=1){
+        sprite_index = slender_jump_right;
+    }else{
+        sprite_index = slender_jump_left;
+    }
+    c2 = -1;
+    c1 = getCollision(x,y);
+    _c1 = c1;
+    
+    if( (x&$1f)>0 ) {
+        c2=getCollision(x+32,y);
+         _c2 = c2;
+    }
+    if( c1>=0 || c2>=0 )
+    {
+        grav=0;
+        y = (y&$ffffffe0)+32;
+    }
+}
+else{
+    // Otherwise, check above player
+    if( jump )
+    {
+        if( dir=1){
+            sprite_index = slender_fall_right;
+        }else{
+            sprite_index = slender_fall_left;
+        }    
+    }else{
+        grav=0;
+        jump=true;
+    }
+    c2 = -1;
+    c1 = getCollision(x,y+64);
+    _c1 = c1;
+    if( (x&$1f)>0 ) {
+        c2=getCollision(x+32,y+64);
+        _c2 = c2;
+    }
+    if( c1>=0 || c2>=0 )
+    {
+        y = (y&$ffffff3e0);
+        jump= false;
+        
+        if( dir=1){
+            sprite_index = slender_walk_right;
+        }else{
+            sprite_index = slender_walk_left;
+        }           
+    }
+}   
+
 
 // If moving left, check LEFT collision
 if( keyboard_check(vk_left) ) 
@@ -47,6 +104,7 @@ if( keyboard_check(vk_left) )
         // always minus 0x1f (32) when player collides 
         x = (x&$ffffffe0);
     }   
+
 } else {
     // If standing still, don't animate
     image_index =0;

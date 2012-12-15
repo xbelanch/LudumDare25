@@ -1,6 +1,4 @@
-// This code is from the simple GameMaker Studio platform demo
-// I'll change later 
-
+// need to move this function at the start of the game
 CreateCollisionMap();
 
 sprite_index = slender_stand_right;

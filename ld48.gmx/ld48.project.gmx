@@ -11,7 +11,9 @@
     <sprite>sprites\slender_walk_right</sprite>
     <sprite>sprites\slender_walk_left</sprite>
     <sprite>sprites\slender_jump_right</sprite>
+    <sprite>sprites\slender_fall_right</sprite>
     <sprite>sprites\slender_jump_left</sprite>
+    <sprite>sprites\slender_fall_left</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tile0</background>
@@ -22,6 +24,7 @@
       <script>scripts\initSlender.gml</script>
       <script>scripts\moveSlender.gml</script>
       <script>scripts\drawSlender.gml</script>
+      <script>scripts\jumpSlender.gml</script>
     </scripts>
     <script>scripts\CreateCollisionMap.gml</script>
     <script>scripts\getCollision.gml</script>
