@@ -5,9 +5,36 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\slender_stand_right</sprite>
+    <sprite>sprites\slender_stand_left</sprite>
+    <sprite>sprites\slender_walk_right</sprite>
+    <sprite>sprites\slender_walk_left</sprite>
+    <sprite>sprites\slender_jump_right</sprite>
+    <sprite>sprites\slender_jump_left</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\tile0</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="slender">
+      <script>scripts\initSlender.gml</script>
+      <script>scripts\moveSlender.gml</script>
+      <script>scripts\drawSlender.gml</script>
+    </scripts>
+    <script>scripts\CreateCollisionMap.gml</script>
+    <script>scripts\getCollision.gml</script>
+    <scripts name="debug">
+      <script>scripts\debugSlender.gml</script>
+    </scripts>
+  </scripts>
+  <objects name="objects">
+    <object>objects\slender</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\splash</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>

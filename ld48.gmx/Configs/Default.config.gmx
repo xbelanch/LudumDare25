@@ -20,6 +20,7 @@
   <option_android_flurry_id></option_android_flurry_id>
   <option_android_google_analytics_enable>false</option_android_google_analytics_enable>
   <option_android_google_tracking_id></option_android_google_tracking_id>
+  <option_android_iap_suppress_toast>false</option_android_iap_suppress_toast>
   <option_android_icon_170>Configs\Default\android\icons\icon170.png</option_android_icon_170>
   <option_android_icon_36>Configs\Default\android\icons\icon36.png</option_android_icon_36>
   <option_android_icon_48>Configs\Default\android\icons\icon48.png</option_android_icon_48>

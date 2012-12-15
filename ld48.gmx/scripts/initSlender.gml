@@ -1,0 +1,20 @@
+// This code is from the simple GameMaker Studio platform demo
+// I'll change later 
+
+CreateCollisionMap();
+
+sprite_index = slender_stand_right;
+image_speed = 0.5;
+
+// basic movement setup
+xspeed = 4.1; // change this value to increase/decrease the horz. speed
+grav=2;
+jump=false;
+climb = false; // climb straight up a rope
+dir=0;
+
+// debug variables always with an underscore 
+debug = true;
+_c1 = 0;
+_c2 = 0;
+
