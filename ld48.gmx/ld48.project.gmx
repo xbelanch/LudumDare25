@@ -20,14 +20,16 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\gameInit.gml</script>
+    <script>scripts\CreateCollisionMap.gml</script>
     <scripts name="slender">
       <script>scripts\initSlender.gml</script>
       <script>scripts\moveSlender.gml</script>
       <script>scripts\drawSlender.gml</script>
       <script>scripts\jumpSlender.gml</script>
+      <script>scripts\changeRoom.gml</script>
+      <script>scripts\getCollision.gml</script>
     </scripts>
-    <script>scripts\CreateCollisionMap.gml</script>
-    <script>scripts\getCollision.gml</script>
     <scripts name="debug">
       <script>scripts\debugSlender.gml</script>
     </scripts>
@@ -37,6 +39,8 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\splash</room>
+    <room>rooms\room1</room>
+    <room>rooms\room2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

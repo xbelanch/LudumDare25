@@ -25,7 +25,13 @@ Tech notes
 room dimension: 640 - 576
 set time to 60
 
+every room calls CreateCollisionMap() 
+
 Slender sprite bounding box: width: 32 - height: 64
+
+set Slender object to persistent mode for changing rooms
+
+
 
 Collision bounding box (stand mode): 
 

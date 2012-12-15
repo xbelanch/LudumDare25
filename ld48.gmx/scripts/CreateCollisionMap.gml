@@ -1,5 +1,5 @@
 //this code is from GameMaker Studio demo
-// I'll try to change it later. Patiente, guys! 
+// I've included on every room a call to this function
 
 var xx,yy,i,t,top,left,s;
 

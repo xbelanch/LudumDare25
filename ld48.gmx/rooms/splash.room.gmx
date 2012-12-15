@@ -10,7 +10,7 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code></code>
+  <code>CreateCollisionMap();</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <makerSettings>
@@ -50,7 +50,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="640" hview="480" xport="0" yport="0" wport="640" hport="480" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="slender" x="192" y="128" name="inst_168BA603" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="slender" x="288" y="416" name="inst_320CB9D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tile0" x="32" y="480" w="32" h="32" xo="0" yo="0" id="10000000" name="inst_C306C7AD" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -77,16 +77,6 @@
     <tile bgName="tile0" x="96" y="416" w="32" h="32" xo="0" yo="0" id="10000021" name="inst_F9EFCF3C" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tile0" x="384" y="416" w="32" h="32" xo="0" yo="0" id="10000022" name="inst_0899CF3B" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tile0" x="384" y="448" w="32" h="32" xo="0" yo="0" id="10000023" name="inst_5409C53D" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tile0" x="160" y="256" w="32" h="32" xo="0" yo="0" id="10000024" name="inst_9C127BC4" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tile0" x="192" y="256" w="32" h="32" xo="0" yo="0" id="10000025" name="inst_AE7FF386" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tile0" x="224" y="256" w="32" h="32" xo="0" yo="0" id="10000026" name="inst_ED8AE736" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tile0" x="320" y="192" w="32" h="32" xo="0" yo="0" id="10000027" name="inst_EB1F271D" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tile0" x="352" y="192" w="32" h="32" xo="0" yo="0" id="10000028" name="inst_A888A727" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tile0" x="384" y="192" w="32" h="32" xo="0" yo="0" id="10000029" name="inst_EF00E0A6" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tile0" x="416" y="96" w="32" h="32" xo="0" yo="0" id="10000030" name="inst_3F59E5E5" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tile0" x="384" y="160" w="32" h="32" xo="0" yo="0" id="10000031" name="inst_7E6E9BFB" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tile0" x="224" y="352" w="32" h="32" xo="0" yo="0" id="10000032" name="inst_77DD2854" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tile0" x="256" y="352" w="32" h="32" xo="0" yo="0" id="10000033" name="inst_FCDD4430" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
