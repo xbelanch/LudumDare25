@@ -36,8 +36,10 @@ else{
     {
         if( dir=1){
             sprite_index = slender_fall_right;
+            image_index = 1;
         }else{
-            sprite_index = slender_fall_right;
+            sprite_index = slender_fall_left;
+            image_index = 1;
         }    
     }else{
         grav=0;
@@ -114,9 +116,9 @@ else if( keyboard_check_direct(vk_right)) /* for win */
 if (sprite_index == slender_stand_left) or
     (sprite_index == slender_stand_right)
 {
-    image_speed = 0.01;
+    image_speed = 0.04;
 } else {
-    image_speed = 0.3;
+    image_speed = 0.2;
 }
 
 

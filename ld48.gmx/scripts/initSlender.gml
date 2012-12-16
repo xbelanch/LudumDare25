@@ -12,7 +12,7 @@ dir= -1;
 persistent = true;
 
 // debug variables always with an underscore 
-debug = true;
+debug = false;
 _c1 = 0;
 _c2 = 0;
 

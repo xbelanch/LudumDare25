@@ -8,13 +8,13 @@
     <sound>sound\rainfall</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\slender_stand_right</sprite>
     <sprite>sprites\slender_stand_left</sprite>
+    <sprite>sprites\slender_stand_right</sprite>
     <sprite>sprites\slender_walk_right</sprite>
-    <sprite>sprites\slender_walk_left</sprite>
     <sprite>sprites\slender_jump_right</sprite>
-    <sprite>sprites\slender_jump_left</sprite>
     <sprite>sprites\slender_fall_right</sprite>
+    <sprite>sprites\slender_walk_left</sprite>
+    <sprite>sprites\slender_jump_left</sprite>
     <sprite>sprites\slender_fall_left</sprite>
   </sprites>
   <backgrounds name="background">
