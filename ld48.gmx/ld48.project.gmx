@@ -28,6 +28,9 @@
     <background>background\back1a</background>
     <background>background\back4</background>
     <background>background\back3</background>
+    <background>background\back5</background>
+    <background>background\back6</background>
+    <background>background\back6a</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -60,6 +63,8 @@
     <room>rooms\room3</room>
     <room>rooms\room4</room>
     <room>rooms\room5</room>
+    <room>rooms\room6</room>
+    <room>rooms\room7</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
