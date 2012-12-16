@@ -6,9 +6,9 @@
 // changeRoom(1) -> next room
 // changeRoom(0) -> previous room
 
-if( argument0>=room_width + $1f) changeRoom("next");
+if( argument0>=room_width + $1f ) changeRoom("next");
 if( argument1>=room_height + $f) changeRoom("fall");
-if( argument0< -$1f) changeRoom("previous");
+if( argument0< 0) changeRoom("previous");
 if( argument1<0) return -1;
 
 
