@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\rainfall</sound>
+    <sound>sound\footsteps</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\slender_stand_left</sprite>
@@ -16,6 +17,8 @@
     <sprite>sprites\slender_walk_left</sprite>
     <sprite>sprites\slender_jump_left</sprite>
     <sprite>sprites\slender_fall_left</sprite>
+    <sprite>sprites\sprRain</sprite>
+    <sprite>sprites\sprSplashRain</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tile0</background>
@@ -36,9 +39,14 @@
     <scripts name="debug">
       <script>scripts\debugSlender.gml</script>
     </scripts>
+    <scripts name="rainEffect">
+      <script>scripts\rainingEffectCreate.gml</script>
+      <script>scripts\rainingEffectDraw.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\slender</object>
+    <object>objects\rainEffect</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\splash</room>

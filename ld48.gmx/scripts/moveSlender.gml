@@ -98,6 +98,7 @@ else if( keyboard_check_direct(vk_right)) /* for win */
     if(!jump){
        sprite_index = slender_walk_right; // walk right
     }
+
     x=x+xspeed;
     c2 = -1;
     c1 = getCollision(x+32, y);
@@ -109,7 +110,8 @@ else if( keyboard_check_direct(vk_right)) /* for win */
         // always minus 0x1f (32) when player collides 
         x = (x&$ffffffe0);
     }   
-
+    // audio doesnt work :-(
+    //audio_play_sound(footsteps, 10, false);
 }
 
 // control image speed!
@@ -119,6 +121,8 @@ if (sprite_index == slender_stand_left) or
     image_speed = 0.04;
 } else {
     image_speed = 0.2;
+        // audio footsteps
+
 }
 
 

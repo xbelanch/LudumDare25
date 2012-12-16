@@ -52,6 +52,7 @@ audio_play_music(rainfall, true);</code>
   </views>
   <instances>
     <instance objName="slender" x="192" y="416" name="inst_0C1BEBE6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="rainEffect" x="0" y="0" name="inst_94D8099E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tile0" x="128" y="480" w="32" h="32" xo="0" yo="0" id="10000000" name="inst_8CF836D8" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

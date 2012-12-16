@@ -24,10 +24,16 @@ Graphic notes
 Using Pixelmator and Pixen and GIMP. Pixelmator is a good graphics tool but lacks of features like shortcuts or scale an image without rescaling (important if you're doing pixel art). Pixen is great for sprites animations and GIMP... oh well, GIMP is great, but under OSX still has a low performance. 
 
 
+Rain
+----
+
+Particle Designer: http://gmc.yoyogames.com/index.php?showtopic=290449
+
 Audio
 -----
 
 * Storm sound from [RHumphries](http://freesound.org/people/RHumphries/sounds/2523/). This sound is licensed under [CC 3.0](http://creativecommons.org/licenses/by/3.0/)
+* Footsteps: http://freesound.org/people/Robinhood76/sounds/55690/
 
 
 Tech notes

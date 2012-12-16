@@ -2,8 +2,10 @@
  
 if (argument0 == "next") { // move to next room
     if (room_next(room) != -1)
-    {
+    {   
+        part_system_destroy(rainEffect.rain);
         room_goto(room_next(room));
+        
     }  
     
     x = x - room_width + $1f;
@@ -15,6 +17,7 @@ if (argument0 == "previous")
 
     if (room_previous(room) != -1)
     {
+         part_system_destroy(rainEffect.rain);
         room_goto(room_previous(room));
     }  
     
@@ -26,6 +29,7 @@ if (argument0 == "fall")
 {
     if (room_next(room) != -1)
     {
+         part_system_destroy(rainEffect.rain);
         room_goto(room_next(room));
     } 
     
