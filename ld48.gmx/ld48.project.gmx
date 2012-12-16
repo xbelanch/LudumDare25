@@ -26,6 +26,7 @@
     <background>background\back1</background>
     <background>background\back2</background>
     <background>background\back1a</background>
+    <background>background\back4</background>
     <background>background\back3</background>
   </backgrounds>
   <paths name="paths"/>
@@ -46,6 +47,7 @@
     <scripts name="rainEffect">
       <script>scripts\rainingEffectCreate.gml</script>
       <script>scripts\rainingEffectDraw.gml</script>
+      <script>scripts\destroyRainingEffect.gml</script>
     </scripts>
   </scripts>
   <objects name="objects">
@@ -57,6 +59,7 @@
     <room>rooms\room2</room>
     <room>rooms\room3</room>
     <room>rooms\room4</room>
+    <room>rooms\room5</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

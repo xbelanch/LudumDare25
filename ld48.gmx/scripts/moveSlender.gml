@@ -28,6 +28,9 @@ if( grav<0 ) // the player is jumping of falling
     {
         grav=0;
         y = (y&$ffffffe0)+32;
+    } else if  (c1 == -99 ) || ( c2 == -99 ) {
+        destroyRainingEffect();
+        game_restart();
     }
 }
 else{
@@ -62,6 +65,9 @@ else{
         }else{
              sprite_index = slender_stand_left;
         }           
+    } else if  (c1 == -99 ) || ( c2 == -99 ) {
+    destroyRainingEffect();
+        game_restart();
     }
 }   
 
@@ -87,8 +93,10 @@ if( keyboard_check_direct(vk_left) ) /* for Win */
     if( c1>=0 ) || ( c2>=0 )
     {
         x = (x&$ffffffe0)+32;
-    }
-      
+    } else if  (c1 == -99 ) || ( c2 == -99 ) {
+        destroyRainingEffect();
+        game_restart();
+    }     
 }
 else if( keyboard_check_direct(vk_right)) /* for win */
 // else if( keyboard_check(vk_right)) /* mac */
@@ -109,7 +117,10 @@ else if( keyboard_check_direct(vk_right)) /* for win */
     {
         // always minus 0x1f (32) when player collides 
         x = (x&$ffffffe0);
-    }   
+    } else if  (c1 == -99 ) || ( c2 == -99 ) {
+        destroyRainingEffect();
+        game_restart();
+    }
     // audio doesnt work :-(
     //audio_play_sound(footsteps, 10, false);
 }

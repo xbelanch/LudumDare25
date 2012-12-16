@@ -50,7 +50,7 @@ if (argument0 == "fall")
     if (room_next(room) != -1)
     {
          part_system_destroy(rainEffect.rain);
-        room_goto(room_next(room));
+         room_goto(room_next(room));
     } 
     
     y  = y - room_height + $1f;

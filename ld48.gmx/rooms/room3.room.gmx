@@ -59,6 +59,14 @@
     <tile bgName="tile0" x="96" y="320" w="32" h="32" xo="0" yo="0" id="10000045" name="inst_1A516F29" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tile0" x="128" y="320" w="32" h="32" xo="0" yo="0" id="10000046" name="inst_F4275AA7" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tile0" x="160" y="320" w="32" h="32" xo="0" yo="0" id="10000047" name="inst_0DD89750" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tile0" x="192" y="320" w="32" h="32" xo="0" yo="0" id="10000048" name="inst_1DAB67E4" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tile0" x="192" y="352" w="32" h="32" xo="0" yo="0" id="10000049" name="inst_97D56ED7" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tile0" x="192" y="384" w="32" h="32" xo="0" yo="0" id="10000050" name="inst_812966A4" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tile0" x="192" y="416" w="32" h="32" xo="0" yo="0" id="10000051" name="inst_10E7EDC8" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tile0" x="192" y="448" w="32" h="32" xo="0" yo="0" id="10000052" name="inst_A4828534" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tile0" x="192" y="480" w="32" h="32" xo="0" yo="0" id="10000053" name="inst_8351CF22" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tile0" x="192" y="512" w="32" h="32" xo="0" yo="0" id="10000054" name="inst_E84E82C3" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="tile0" x="192" y="544" w="32" h="32" xo="0" yo="0" id="10000055" name="inst_236B8CE5" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>0</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>

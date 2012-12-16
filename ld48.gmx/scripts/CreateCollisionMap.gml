@@ -16,17 +16,26 @@ for( yy=0;yy<room_height;yy+=32)
         global.map[i]=-1;
         // 10 is the layer number where we place the tiles
         t = tile_layer_find(10,xx,yy);
-        
-        
+        s = tile_layer_find(20,xx,yy);
         
         if( t>=0 )
         {
+            
             // set transparent tiles
             tile_set_alpha(t,0);
             left = tile_get_left(t);
             //show_debug_message(string(left));
             global.map[i]=left/32;  
                    
+        }
+        
+        if ( s>=0)
+        {
+            // set transparent tiles
+            // this are the dangerous tiles (red)
+            // they live at the z-index 20
+            tile_set_alpha(s, 0);
+            global.map[i] = -99;
         }
     }
 }
