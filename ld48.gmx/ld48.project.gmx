@@ -31,6 +31,13 @@
     <background>background\back5</background>
     <background>background\back6</background>
     <background>background\back6a</background>
+    <background>background\back7a</background>
+    <background>background\back8</background>
+    <background>background\back11</background>
+    <background>background\back10</background>
+    <background>background\back9</background>
+    <background>background\back7</background>
+    <background>background\title</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -52,10 +59,19 @@
       <script>scripts\rainingEffectDraw.gml</script>
       <script>scripts\destroyRainingEffect.gml</script>
     </scripts>
+    <scripts name="textBox">
+      <script>scripts\initTextBox.gml</script>
+      <script>scripts\stepTextBox.gml</script>
+      <script>scripts\drawTextBox.gml</script>
+    </scripts>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\Aansa</font>
+  </fonts>
   <objects name="objects">
     <object>objects\slender</object>
     <object>objects\rainEffect</object>
+    <object>objects\textBox</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\splash</room>
@@ -65,6 +81,11 @@
     <room>rooms\room5</room>
     <room>rooms\room6</room>
     <room>rooms\room7</room>
+    <room>rooms\room8</room>
+    <room>rooms\room9</room>
+    <room>rooms\room10</room>
+    <room>rooms\room11</room>
+    <room>rooms\room13</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
