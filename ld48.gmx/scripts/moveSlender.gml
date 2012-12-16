@@ -37,7 +37,7 @@ else{
         if( dir=1){
             sprite_index = slender_fall_right;
         }else{
-            sprite_index = slender_fall_left;
+            sprite_index = slender_fall_right;
         }    
     }else{
         grav=0;
@@ -55,10 +55,10 @@ else{
         y = (y&$ffffff3e0);
         jump= false;
         
-        if( dir=1){
-            sprite_index = slender_walk_right;
+        if( dir==1){
+             sprite_index = slender_stand_right;
         }else{
-            sprite_index = slender_walk_left;
+             sprite_index = slender_stand_left;
         }           
     }
 }   
@@ -71,9 +71,10 @@ if( keyboard_check_direct(vk_left) ) /* for Win */
 
 // if( keyboard_check(vk_left) )  /* for Mac */ 
 {
+   
     dir=-1;
     if(!jump){
-        sprite_index = slender_walk_left;
+        sprite_index = slender_walk_left; // walk left
     }
     x=x-xspeed;
     c2=-1;
@@ -93,7 +94,7 @@ else if( keyboard_check_direct(vk_right)) /* for win */
     // Otherwise, check collision to the right
     dir=1;
     if(!jump){
-        sprite_index = slender_walk_right;
+       sprite_index = slender_walk_right; // walk right
     }
     x=x+xspeed;
     c2 = -1;
@@ -107,9 +108,15 @@ else if( keyboard_check_direct(vk_right)) /* for win */
         x = (x&$ffffffe0);
     }   
 
+}
+
+// control image speed!
+if (sprite_index == slender_stand_left) or
+    (sprite_index == slender_stand_right)
+{
+    image_speed = 0.01;
 } else {
-    // If standing still, don't animate
-    image_index =0;
+    image_speed = 0.3;
 }
 
 

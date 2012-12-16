@@ -18,6 +18,11 @@ Slender
 You're the Slender after killed a explorer guy. The first screen room you're standing close to the explorer died body. A still open "linterna" is on the ground. You move to the right and put back  the nine notes. After all the slender move his head to the "camera" and kills the game. 
 
 
+Graphic notes
+-------------
+
+Using Pixelmator and Pixen. 
+
 
 Tech notes
 ----------

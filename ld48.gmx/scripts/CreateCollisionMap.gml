@@ -17,8 +17,12 @@ for( yy=0;yy<room_height;yy+=32)
         // 10 is the layer number where we place the tiles
         t = tile_layer_find(10,xx,yy);
         
+        
+        
         if( t>=0 )
         {
+            // set transparent tiles
+            tile_set_alpha(t,0);
             left = tile_get_left(t);
             //show_debug_message(string(left));
             global.map[i]=left/32;  
