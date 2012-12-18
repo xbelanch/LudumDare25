@@ -75,7 +75,7 @@ else{
 // If moving left, check LEFT collision
 // check direct (http://gmc.yoyogames.com/index.php?showtopic=561337&st=0&p=4146801&hl=+change%20+rooms&fromsearch=1&#entry4146801)
 
-if( keyboard_check_direct(vk_left) ) /* for Win */ 
+ if( keyboard_check_direct(vk_left) ) /* for Win */ 
 
 // if( keyboard_check(vk_left) )  /* for Mac */ 
 {
@@ -99,7 +99,7 @@ if( keyboard_check_direct(vk_left) ) /* for Win */
     }     
 }
 else if( keyboard_check_direct(vk_right)) /* for win */
-// else if( keyboard_check(vk_right)) /* mac */
+//  else if( keyboard_check(vk_right)) /* mac */
 {
     // Otherwise, check collision to the right
     dir=1;
