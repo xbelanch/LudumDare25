@@ -1,6 +1,9 @@
 LD48
 ====
 
+My first LD48 competition: Ludum Dare 25
+
+[Don't Look At Me - Xavier - 48 Hour Compo Entry](http://www.ludumdare.com/compo/ludum-dare-25/?action=preview&uid=15692)
 
 
 Random thoughts
