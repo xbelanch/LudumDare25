@@ -6,6 +6,12 @@ My first LD48 competition: Ludum Dare 25
 [Don't Look At Me - Xavier - 48 Hour Compo Entry](http://www.ludumdare.com/compo/ludum-dare-25/?action=preview&uid=15692)
 
 
+Personal remake of Terry Cavanagh's "Don't look back" but changing a bit its history. 
+
+Sorry for the inconveniences but there's no ending though I'm very intrigued about the concept of a game without endings or goals. Anyway, I'll take the needed time to improve the game and plot as well (and try to imagine an ending)
+
+
+
 Random thoughts
 ---------------
 
@@ -57,4 +63,13 @@ Collision bounding box (stand mode):
 
 * Left: 5 - Right: 25
 * Top: 3 - Bottom: 63
+
+
+Post mortem
+------------
+
+
+
+
+
 
